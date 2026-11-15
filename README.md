@@ -459,5 +459,3 @@ O comando `features` passa a incluir a nova fonte automaticamente.
 | MapBiomas | CC BY 4.0 | Projeto MapBiomas – Coleção 10 da Série Anual de Mapas de Cobertura e Uso da Terra do Brasil, acessado em [data] em https://brasil.mapbiomas.org |
 
 O `metadata/catalogo_downloads.csv` registra a URL, a data e o hash de cada arquivo usado. Isso facilita citar exatamente a versão dos dados que entrou no seu modelo.
-#   r o t a c a o - c u l t u r a s  
- 
