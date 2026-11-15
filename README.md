@@ -1,8 +1,9 @@
-# Rotação de Culturas: dados globais para Machine Learning
+# Rotação de Culturas: dados globais para Machine Learning HACKATHON NASA SPACE APPS 2026
 
+Utilizando Claude Opus 5.5\
 Pipeline em Python que **baixa, harmoniza e transforma em dataset de ML** dados de rotação de culturas de três fontes abertas:
 
-- 🇺🇸 Estados Unidos: **USDA NASS Crop Sequence Boundaries**
+- 🇺🇸 Estados Unidos: **USDA NASS Crop Sequence Boundaries (Cedido pela NASA para o desafio)**
 - 🇪🇺 União Europeia: **EuroCrops v2.0**
 - 🇧🇷 Brasil: **MapBiomas Coleção 10**
 
@@ -34,7 +35,7 @@ O resultado é um conjunto de tabelas Parquet com o mesmo esquema e a mesma lege
 
 ## 1. Motivação
 
-Não existe um dataset global pronto de rotação de culturas. A rotação precisa ser **reconstruída**: pegamos mapas ou declarações anuais de "qual cultura estava em cada área" e lemos a sequência de cada talhão ao longo dos anos.
+Unificação de dados de rotação de cultura disponibilizados pela NASA para o HACKATHON NASA SPACE APPS e dados abertos, utilizando Claude Opus 5.5. Como não existe um dataset global pronto de rotação de culturas. A rotação precisa ser **reconstruída**: pegamos mapas ou declarações anuais de "qual cultura estava em cada área" e lemos a sequência de cada talhão ao longo dos anos.
 
 Cada fonte, porém, tem o seu próprio formato, os seus códigos de cultura, a sua projeção e o seu idioma. O USDA usa códigos numéricos do Cropland Data Layer, o EuroCrops usa códigos nacionais traduzidos para a taxonomia HCAT4, e o MapBiomas usa classes de uso da terra. Este projeto resolve isso em três etapas:
 
