@@ -1,0 +1,40 @@
+codigo_mapbiomas,nome_mapbiomas,cultura
+0,Não observado,desconhecido
+1,Floresta,nao_agricola
+3,Formação Florestal,nao_agricola
+4,Formação Savânica,nao_agricola
+5,Mangue,nao_agricola
+6,Floresta Alagável,nao_agricola
+9,Silvicultura,silvicultura
+10,Vegetação Herbácea e Arbustiva,nao_agricola
+11,Campo Alagado e Área Pantanosa,nao_agricola
+12,Formação Campestre,nao_agricola
+13,Outras Formações não Florestais,nao_agricola
+14,Agropecuária,desconhecido
+15,Pastagem,pastagem_campo
+18,Agricultura,outras_temporarias
+19,Lavoura Temporária,outras_temporarias
+20,Cana,cana_de_acucar
+21,Mosaico de Usos,desconhecido
+22,Área não Vegetada,nao_agricola
+23,"Praia, Duna e Areal",nao_agricola
+24,Área Urbanizada,nao_agricola
+25,Outras Áreas não Vegetadas,nao_agricola
+26,Corpo D'água,nao_agricola
+29,Afloramento Rochoso,nao_agricola
+30,Mineração,nao_agricola
+31,Aquicultura,nao_agricola
+32,Apicum,nao_agricola
+33,"Rio, Lago e Oceano",nao_agricola
+35,Dendê,dende
+36,Lavoura Perene,outras_perenes
+39,Soja,soja
+40,Arroz,arroz
+41,Outras Lavouras Temporárias,outras_temporarias
+46,Café,cafe
+47,Citrus,citros
+48,Outras Lavouras Perenes,outras_perenes
+49,Restinga Arbórea,nao_agricola
+50,Restinga Herbácea,nao_agricola
+62,Algodão (beta),algodao
+75,Usina Fotovoltaica (beta),nao_agricola
